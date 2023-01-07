@@ -13,6 +13,12 @@ jobs:
         with:
           flutter-version: "3.3.10"
           channel: "stable"
+        rustrun: flutter --version
 
       - name: Install dependencies
         run: flutter pub get
+
+
+
+
+
